@@ -1,3 +1,4 @@
+
 body {
             font-family: 'Arial', sans-serif;
             background-color: #f4f4f9;
@@ -43,6 +44,7 @@ body {
 
         
         button {
+            
             padding: 10px 20px;
             background-color: #7d95b0;
             color: white;
@@ -89,7 +91,8 @@ body {
             border-radius: 5px;
             cursor: pointer;
             font-size: 12px;
+            margin-top: 9px;
         }
         .remove-btn:hover {
-            background-color: #d9534f;
+            background-color: #c00600;
         }
