@@ -1,4 +1,5 @@
 function addTask() {
+
     var taskInput = document.getElementById('taskInput');
     var taskList = document.getElementById('taskList');
 
@@ -21,7 +22,7 @@ function addTask() {
     };
 
     li.appendChild(removeButton);
+
     taskList.appendChild(li);
     taskInput.value = '';
 }
-
